@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ルミムTHEよりもと</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="zissen0101/favicon-16x16.png"
+    />
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <header class="page-heahder">
+        <h1>
+          <a href="index.html"
+            ><img
+              class="logo"
+              src="zissen0101/dougasakusei rogo.png"
+              alt="ルミムTHEよりもと"
+          /></a>
+        </h1>
+
+        <nav>
+          <ul>
+            <li><a href="information.html">インフォメーション</a></li>
+            <li><a href="sisetu.html">施設案内</a></li>
+            <li><a href="sukezyu-ru.html">公演スケジュール</a></li>
+            <li><a href="zaseki.html">座席表</a></li>
+            <li><a href="access.html">アクセス</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+          </ul>
+        </nav>
+
+        <div class="clear"></div>
+      </header>
+      <div id="mainimage" class="box-shadow">
+        <img src="zissen0101/situmon.jpg" alt="メイン画像" />
+      </div>
+
+      <div id="left" class="box-shadow">
+        <h3 class="sub-title">よくある質問</h3>
+        <div
+          onclick="obj=document.getElementById('open').style; obj.display=(obj.display=='none')?'block':'none';"
+        >
+          <a style="cursor: pointer"
+            >Q　公演に途中から参加できるか？▼ ここを開く</a
+          >
+        </div>
+        <div id="open" style="display: none; clear: both">
+          <p>A　可能です。</p>
+          <p>
+            公演中は劇場入口の扉がしまっていますが、スタッフにお声がけしていただければ劇場スタッフがお席までご案内いたします。
+          </p>
+        </div>
+
+        <div
+          onclick="obj=document.getElementById('net').style; obj.display=(obj.display=='none')?'block':'none';"
+        >
+          <a style="cursor: pointer"
+            >Q　チケットは劇場で買えますか？▼ ここを開く</a
+          >
+        </div>
+        <div id="net" style="display: none; clear: both">
+          <p>A　買えます。当日券はサービスカウンターにてお申し付けください。</p>
+          <p>
+            　　ネットでは先行でチケット発売しておりますので、事前のご購入がおすすめです。
+          </p>
+        </div>
+        <div
+          onclick="obj=document.getElementById('sun').style; obj.display=(obj.display=='none')?'block':'none';"
+        >
+          <a style="cursor: pointer">Q　休憩時間はあるか？▼ ここを開く</a>
+        </div>
+        <div id="sun" style="display: none; clear: both">
+          <p>A　あります。</p>
+          <p>前半40分終了後、5分間の休憩がございます。</p>
+          <p>
+            再入場される際は、チケット確認が必須となっておりますのでお手元に貴重品と一緒にチケットを持って離席ください。
+          </p>
+        </div>
+
+        <div
+          onclick="obj=document.getElementById('main').style; obj.display=(obj.display=='none')?'block':'none';"
+        >
+          <a style="cursor: pointer"
+            >Q　車いすでの観劇はできますか？▼ ここを開く</a
+          >
+        </div>
+        <div id="main" style="display: none; clear: both">
+          <p>A　可能です。車いすのお客様専用スペースがございます。</p>
+          <p>サービスカウンターにいるスタッフまでお声がけください。</p>
+        </div>
+        <div
+          onclick="obj=document.getElementById('moon').style; obj.display=(obj.display=='none')?'block':'none';"
+        >
+          <a style="cursor: pointer"
+            >Q　席によって値段は変わりますか？▼ ここを開く</a
+          >
+        </div>
+        <div id="moon" style="display: none; clear: both">
+          <p>
+            A　平日と土日、子供（18歳未満）と大人で料金は異なりますが、一律料金となっております。
+          </p>
+          <p>立見席もご用意しておりますので、是非観劇ください。</p>
+        </div>
+      </div>
+      <div id="right">
+        <ul>
+          <li class="box-shadow">
+            <a id="contact" href="access.html">劇場場所</a>
+          </li>
+          <li class="box-shadow">
+            <a id="blog" href="zaseki.html">座席表</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+
+    <footer>
+      <p>(C) yorimotokougyou All Right Reserved.</p>
+    </footer>
+  </body>
+</html>
